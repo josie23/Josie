@@ -37,7 +37,7 @@ sap.ui.define([
 		onLoginPress: function() {
 			// var oTextField = this.getView().byId("password");
 			var oUsername = this.getView().byId("username").getValue();
-			var oPassword = this.getView().byId("password").getValue();
+			
 			
 			var oBundle = this.getView().getModel("i18n").getResourceBundle();
 			//var oBundle = this.getView().getModel("i18n").getResourceBundle();
